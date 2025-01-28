@@ -14,19 +14,26 @@ header {
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 2px solid black;
+    border-right: 5px solid black;
     padding: 0.5%;
     margin-bottom: 10px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     text-transform: uppercase;
     font-size: 14px;
+    width: 100%;
+    position: relative;
 }
 
 aside {
     text-align: right;
     font-size: 15px;
-    margin-right: 2%;
+    margin-right: 0%;
     float: right;
     font-family: "Garamond", Times, serif;
+    padding: 0.5%;
+    margin-right: 2%;
+    border-right: 10px solid brown;
+    position: relative;
 }
 
 aside::first-line {
@@ -36,7 +43,7 @@ aside::first-line {
 h1 {
    margin: 4% 1% 4% ; 
    padding-right: 5%;
-   /* margin-right: 5%; */
+   margin-right: 5%;
 }
 
 article {
@@ -44,8 +51,8 @@ article {
     margin: 0 auto;
     padding: 20px;
     width: 80%;
-    background-image: url('images/WidgetCoLogo.gif');
-    background-size: cover;
+    background-image: url("../images/WidgetCoLogo.gif");
+    background-size: contain;
 }
 
 h2 {
@@ -62,7 +69,7 @@ p {
 }
 
 section {
-    border: 2px solid green;
+    border: 2px solid burlywood;
     border-left-width: 30px;
     background-color: #fffce6;
     padding: 10px;
