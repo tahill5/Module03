@@ -1,0 +1,83 @@
+/*
+Tristen Hill
+WEB 210.0001
+M2 ASSIGNMENT
+1-17-2025
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.5%;
+    margin-bottom: 10px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+aside {
+    text-align: right;
+    font-size: 15px;
+    margin-right: 2%;
+    float: right;
+    font-family: "Garamond", Times, serif;
+}
+
+aside::first-line {
+    font-weight: bold;
+}
+
+h1 {
+   margin: 4% 1% 4% ; 
+   padding-right: 5%;
+   /* margin-right: 5%; */
+}
+
+article {
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    background-image: url('images/WidgetCoLogo.gif');
+    background-size: cover;
+}
+
+h2 {
+    margin: 3%;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    margin: 2%;
+    font-family: "Garamond", Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+section {
+    border: 2px solid green;
+    border-left-width: 30px;
+    background-color: #fffce6;
+    padding: 10px;
+    padding-left: 3%;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: right;
+    font-style: italic;
+    color: gray;
+    border-top: 2px solid gray;
+    padding: 0.5%;
+}
+
+footer a {
+    color: gray;
+}
